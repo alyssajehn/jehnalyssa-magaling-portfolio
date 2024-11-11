@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alyssa Magaling - Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+  
+    <nav id="desktop-nav">
+        <div class="logo">
+            <img src="newlogo.png" alt="Your Logo" />
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <nav id="responsive-nav">
+        <div class="logo"><img src="newlogo.png" alt="Your Logo" /></div>
+        <div class="responsive-menu">
+            <div class="responsive-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+  
+    <section id="profile" class="hero">
+        <div class="section_pic-container">
+            <img src="myicon (2) (1).png" alt="aly-profile" class="profile-image" />
+        </div>
+        <div class="section_text">
+            <p class="section__text__p1">Hi, I'm</p>
+            <h1 class="title">Alyssa Magaling</h1>
+            <p class="section_text_p2">Welcome to my Portfolio!</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact</button>
+                <a href="cv.pdf" class="btn btn-color-2" download="cv.pdf">Download</a>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <div class="container">
+        <section id="about" class="profile-section">
+            <img src="mypic.png" alt="My Photo" class="profile-image" />
+            <div class="intro">
+                <p>Showcasing my skills, projects, and more</p>
+            </div>
+        </section>
+
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p> Hi! I'm <strong>Alyssa Magaling</strong>, a college student currently studying computer science at CVSU School. I adore making appealing yet easy-to-use websites! I enjoy creating user-friendly websites and developing clean code. My objective is to create websites that are not just functional but also distinctive and impactful. I like to take on challenges to improve my abilities and am constantly learning new things. In order to make my passion a career and provide everyone with incredible online experiences, I hope to work as a professional web developer in the future.</p>
+            <h2>My Strengths</h2>
+            <ul class="strengths">
+                <li>🌟 Eagerness to Learn</li>
+                <li>🌟 Detail-Oriented Approach</li>
+                <li>🌟 Collaborative teamwork</li>
+                <li>🌟 Innovative and creative thinking</li>
+                <li>🌟 Attention to Detail</li>
+                <li>🌟 Leadership</li>
+            </ul>
+        </section>
+
+       
+        <section class="languages-skills">
+            <h2>Languages and Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Language</th>
+                        <th>Skill Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td class="stars">&#9733;&#9733;&#9734;&#9734;&#9734;</td>
+                    </tr>
+                    <tr>
+                        <td>PHP</td>
+                        <td class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+                    </tr>
+                    <tr>
+                        <td>MySQL</td>
+                        <td class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+                    </tr>
+                  
+                    <tr>
+                        <td>Python</td>
+                        <td class="stars">&#9733;&#9733;&#9734;&#9734;&#9734;</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td class="stars">&#9733;&#9733;&#9734;&#9734;&#9734;</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+
+       
+<section class="skills">
+    <div class="skills-grid">
+        <div class="skill-card">
+            <img src="coder.gif" alt="Web Development" />
+            <p>Web Development </p>
+        </div>
+        <div class="skill-card">
+            <img src="video-editor.gif" alt="Video Editor" />
+            <p>Images and Video Editor</p>
+        </div>
+        <div class="skill-card">
+            <img src="graphic-designer.gif" alt="Graphic Design" />
+            <p>Graphic Design </p>
+        </div>
+        <div class="skill-card">
+            <img src="database-table.gif" alt="Database Management" />
+            <p>Database Management </p>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects">
+    <h2 class="project-h2">Projects</h2>
+    <div class="project-container">
+
+        
+        <div class="project-thumbnails">
+            <div class="project-card">
+                <div class="front">
+                    <div class="click-note">
+                        <p>Click to view details</p>
+                    </div>
+                    <img src="alm.jpeg" alt="Project 1" class="project-image">
+                    <h3 class="project-title">Alumni Tracking System</h3>
+                </div>
+                <div class="back">
+                    <p class="project-description">Developed a user-friendly Alumni Tracking website to keep former students connected. Although still a work in progress.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/alyssajehn/alumni_tracking" target="_blank">
+                            <img src="social.png" alt="GitHub" class="github-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="project-thumbnails">
+            <div class="project-card">
+                <div class="front">
+                    <div class="click-note">
+                        <p>Click to view details</p>
+                    </div>
+                    <img src="ck.jpeg" alt="Project 2" class="project-image">
+                    <h3 class="project-title">Checklist</h3>
+                </div>
+                <div class="back">
+                    <p class="project-description">Created a website checklist tool to ensure all components are ready before launching. While still under development work progress.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/alyssajehn/checklist_system" target="_blank">
+                            <img src="social.png" alt="GitHub" class="github-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="project-thumbnails">
+            <div class="project-card">
+                <div class="front">
+                    <div class="click-note">
+                        <p>Click to view details</p>
+                    </div>
+                    <img src="ess.png" alt="Project 3" class="project-image">
+                    <h3 class="project-title">Enrollment System</h3>
+                </div>
+                <div class="back">
+                    
+                    <p class="project-description">Developed an enrollment website to streamline the application process for students.Though still a work in progress.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/alyssajehn/enrollment_system" target="_blank">
+                            <img src="social.png" alt="GitHub" class="github-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+     
+        <div id="projectModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="fullImage" />
+            <div id="modalDescription"></div>
+        </div>
+
+       
+        <section class="profile-section">
+            <img src="phone-call.png" alt="My Photo" class="profile-image2" />
+            <div class="intro">
+                <p>Your thoughts matter! Feel free to drop me a message.</p>
+            </div>
+        </section>
+
+
+<section id="contact">
+    <p class="section__text__p1">Contact Me</p>
+    <div class="contact-info-container">
+        <div class="contact-info-container">
+            <img src="business.png" alt="Email icon" class="icon contact-icon" />
+            
+            <p>
+                <a href="mailto:magalingalyssa@gmail.com?subject=Portfolio%20Inquiry&body=Hi%21%20I%27m%20Alyssa%20Magaling.%20If%20you%20have%20any%20concern%20regarding%20my%20portfolio%20or%20if%20you%20would%20like%20to%20discuss%20working%20with%20me%20as%20a%20web%20developer%2C%20please%20feel%20free%20to%20share%20the%20details%20below.%0A%0AThank%20you%21%0A%0A%5BPlease%20write%20your%20concern%20here%5D" target="_blank">
+                    magalingalyssa@gmail.com
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="contact-info-container">
+        <img src="telephone.png" alt="Telephone icon" class="icon telephone-icon" />
+        <p>+63 915 523 1977</p> 
+    </div>
+
+   
+    <div class="contact-info-container">
+        <img src="facebook.png" alt="Facebook icon" class="icon social-icon" />
+        <p>
+            <a href="https://www.facebook.com/jehnalyssamagaling" target="_blank">
+                Facebook
+            </a>
+        </p>
+    </div>
+
+    <div class="contact-info-container">
+        <img src="social (1).png" alt="Instagram icon" class="icon social-icon" />
+        <p>
+            <a href="https://www.instagram.com/magswazowskie/" target="_blank">
+                Instagram
+            </a>
+        </p>
+    </div>
+
+</div>
+</section>
+    
+    <div class="contact-form-container">
+        <form id="contactForm" onsubmit="sendEmail(event)">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message here" rows="6" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+<script>
+    function sendEmail(event) {
+        event.preventDefault();
+        
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+
+        var defaultMessage = "Hi! I'm Alyssa Magaling. If you have any concern regarding my portfolio, or if you would like to discuss working with me as a web developer, please feel free to share the details below.\n\nThank you!\n\n";
+
+        
+        var mailtoLink = 'mailto:magalingalyssa@gmail.com' +
+            '?subject=Portfolio Inquiry from ' + encodeURIComponent(name) +
+            '&body=' + encodeURIComponent(defaultMessage + '\n' + message + '\n\nFrom: ' + name + '\nEmail: ' + email);
+
+        
+        window.location.href = mailtoLink;
+    }
+</script>
+
+
+
+
+        
+        <footer>
+            <p>&copy; 2024 Alyssa Magaling. All rights reserved.</p>
+        </footer>
+    </div>
+
+  
+    <script src="scripts.js"></script>
+</body>
+
+</html>
